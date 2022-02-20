@@ -44,18 +44,3 @@ exp_pls_bs$boot$paths
 # summarized results
 summary(exp_pls)
 summary(exp_pls_bs)
-# plotting results (inner model)
-plot(exp_pls) 
-
-# plotting loadings of the outer model
-plot(exp_pls, what = "loadings", arr.width = 0.1)
-
-exp_pls$unidim
-exp_pls$outer_model
-
-# plotting weights
-plot(exp_pls, what = "weights") # 
-exp_pls$inner_model
-
-#Para r2
-exp_pls$inner_summary
